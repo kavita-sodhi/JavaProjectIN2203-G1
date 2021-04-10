@@ -1,7 +1,16 @@
 public class TheJungle{
 	
 	public static void main(String [] args){
-		System.out.println("starting application");
+		System.out.println("Welcome kavita");
+		System.out.println("Run Application");
+		TheCompetition object= new TheCompetition();
+		for(int i=0;i<10;i++)//iteration for 10 rounds
+		{
+		 object.RunGame();
+		object.Check_Winner();
+		object.ReportOnWinner();
+		
+		}
 
 	}
 
